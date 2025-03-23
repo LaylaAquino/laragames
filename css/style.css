@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    row-gap: 40px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+}
+
+ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #D9D9D9;
+    padding: 16px 32px;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.navbutton {
+    display: flex;
+    gap: 24px;
+
+}
+
+.destaque {
+    display: flex;
+    gap: 32px;
+    padding: 0 40px;
+}
+
+.post {
+    box-sizing: border-box;
+    max-width: 50%;
+}
+
+.svgimagem {
+    width: 100%;
+    height: 0;
+    /* A mágica está aqui */
+    padding-bottom: 100%;
+    /* ... e está aqui */
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #D9D9D9;
+    padding: 40px 32px;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.conteudopagina {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 40px;
+    gap: 40px;
+}
+
+
+
+.cardformulario {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Título */
+.form {
+    margin-bottom: 20px;
+}
+
+/* Estilização dos campos */
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilização do checkbox */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    /* Alinha o checkbox e o texto */
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/* Checkbox padrão */
+.checkbox-container input {
+    margin-right: 8px;
+    /* Espaço entre o checkbox e o texto */
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+/* Link de privacidade */
+.checkbox-container a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.checkbox-container a:hover {
+    text-decoration: underline;
+}
+
+/* Botão de envio */
+button {
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 32px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.card {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Estilização dos botões de filtro */
+.filter-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.sort-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    margin: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    width: fit-content;
+}
+
+.sort-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilização dos itens */
+#items-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.item {
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 100%;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudolista {
+    padding: 0 40px;
+    display: grid;
+    gap: 40px;
+}
+
+.conteinercards {
+    display: flex;
+    width: 100%;
+    height: 133;
+    justify-content: flex-start;
+    gap: 48px;
+    
+}
+
+.card {
+    width: 390;
+    height: 133;
+    min-width: 300px;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    display: flex;
+    flex-direction: column; /* Organiza os itens verticalmente */
+    justify-content: space-between; /* Distribui os itens pelo espaço disponível */
+}
+
+.titulocontainer{
+    margin: 0 0 40px;
+}
+
+.downloadbutton{
+    width: auto;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    
+}
+
+.downloadbutton:hover {
+    background-color: #0056b3;
+}
