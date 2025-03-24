@@ -237,6 +237,7 @@ button:hover {
     padding: 0 40px;
     display: grid;
     gap: 40px;
+    max-width: 100%;
 }
 
 .conteinercards {
@@ -380,4 +381,49 @@ li a:hover {
 
 #linkludopedia:hover{
     color: #007BFF;
+}
+
+nav ul li:visited {
+    color: #000;
+    /* Mantém a cor original do texto */
+}
+
+.containercardtitulo{   
+    width: 100%;
+}
+
+.postecontato{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+div.postecontato div.card{
+    justify-content: flex-start ;
+    max-height: fit-content;
+}
+
+div.postecontato div.card h3{
+    max-width: 50%;
+}
+
+div.postecontato div.card{
+    max-width: 50%;
+}
+
+div.conteudolista div.cardformulario h2{
+    margin-bottom: 24px;
+}
+
+div.conteudolista div.item{
+    max-width: 100%;
+}
+
+.postforum img{
+    max-width: 100%;
+    height: fit-content;
+}
+
+.vermais{
+    
 }

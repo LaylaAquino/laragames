@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja</title>
+    <title>Fórum</title>
     <link rel="stylesheet" href="..\css\style.css">
 </head>
 
-<script src="../js/loja.js"></script>
+<script src="#"></script>
 
 <body>
 
@@ -35,7 +35,7 @@
 
     <div class="conteudolista">
         <div class="container1">
-            <h2>Loja</h2>
+            <h2>Fórum</h2>
             <!-- Botões para ordenar -->
             <div class="filter-container">
                 <button class="sort-btn" data-sort="sales">Mais comprados</button>
@@ -49,41 +49,78 @@
         <!-- Lista de itens -->
         <div id="items-container">
 
-            <div class="item" data-name="O bom do videogame" data-sales="120" data-rating="1"
-                data-category="Estratégia">
-                <img src="../images/bomdovideogame.jpg">
-                <div class="conteudoitem">
-                    <h3>O bom do videogame</h3>
-                    <p>120 cópias vendidas / nota 1 / Estratégia</p>
-                    <button class="downloadbutton">Comprar por R$119,90</button>
-                </div>
+            <div class="postforum" data-name="post1" data-sales="120" data-rating="1" data-category="Estratégia">
+                <img src="../images/Cards1.jpg">
             </div>
 
-            <div class="item" data-name="Masmorra de Dados" data-sales="200" data-rating="8" data-category="Aventura">
-                <img src="../images/masmorra.jpg">
-                <div class="conteudoitem">
-                    <h3>Masmorra de Dados</h3>
-                    <p>200 cópias vendidas / nota 8 / Aventura</p>
-                    <button class="downloadbutton">Comprar por R$89,90</button>
-                </div>
+            <div class="postforum" data-name="post1" data-sales="120" data-rating="1" data-category="Estratégia">
+                <img src="../images/Cards2.jpg">
             </div>
 
-            <div class="item" data-name="Gnomópolis" data-sales="500" data-rating="5" data-category="Fantasia">
-                <img src="../images/gnomopolis.jpg">
-                <div class="conteudoitem">
-                    <h3>Gnomópolis</h3>
-                    <p>500 cópias vendidas / nota 5 / Fantasia</p>
-                    <button class="downloadbutton">Comprar por R$99,90</button>
-                </div>
+            <div class="postforum" data-name="post1" data-sales="120" data-rating="1" data-category="Estratégia">
+                <img src="../images/Cards3.jpg">
             </div>
 
 
         </div>
 
+        <div class="postecontato">
+            <div class="cardformulario">
+                <h2>Publicar novo tópico</h2>
 
 
+                <form>
+                    <label>Título</label>
+                    <input>
+
+                    <label>Mensagem</label>
+                    <textarea rows="4" cols="50">
+                    </textarea>
+
+                    <button>Publicar</button>
+
+                </form>
+
+            </div>
+
+
+        </div>
+        <div class="containercardtitulo">
+            <div class="titulocontainer">
+                <h2>Opções de conta</h2>
+            </div>
+            <div class="conteinercards">
+
+
+
+                <div class="card">
+                    <h3>Privacidade e segurança</h3>
+                    <button onclick="location.href='privacidadeeseguranca.html'">Ver mais</button>
+                </div>
+
+                <div class="card">
+                    <h3>Suporte</h3>
+                    <button onclick="location.href='suporte.html'">Ver mais</button>
+                </div>
+
+                <div class="card">
+                    <h3>Fórum</h3>
+                    <button onclick="location.href='forum.html'">Ver mais</button>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+        </div>
     </div>
-
     <footer>
         <svg width="190" height="27" viewBox="0 0 190 27" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -102,6 +139,7 @@
 
         </div>
     </footer>
+
 
 
 

@@ -16,7 +16,7 @@ function validarFormulario() {
         if (!checkbox.checked) {
             errorMessage.style.display = "block";
             errorMessage.innerHTML = "Você precisa concordar com os termos de privacidade e segurança.";
-            
+
             // Após 10 segundos, faz a mensagem desaparecer com efeito
             setTimeout(() => {
                 errorMessage.style.opacity = 0;  // Inicia o desaparecimento
@@ -45,7 +45,7 @@ function validarFormulario() {
         // Se o formulário não for válido, mostra uma mensagem de erro
         errorMessage.style.display = "block";
         errorMessage.innerHTML = "Todos os campos são obrigatórios e devem conter um texto válido.";
-        
+
         // Após 10 segundos, faz a mensagem desaparecer com efeito
         setTimeout(() => {
             errorMessage.style.opacity = 0;  // Inicia o desaparecimento
